@@ -24,5 +24,15 @@
     &-creation {
       color: var(--blue-500);
     }
+
+    &-author {
+      color: var(--white);
+      cursor: pointer;
+      transition: color 0.3s;
+
+      &:hover {
+        color: var(--cyan-400);
+      }
+    }
   }
 }
