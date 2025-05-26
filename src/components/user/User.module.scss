@@ -32,7 +32,12 @@
 
       &:hover {
         color: var(--cyan-400);
+        transition: color 0.3s;
       }
     }
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
   }
 }

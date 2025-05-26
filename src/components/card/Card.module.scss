@@ -41,6 +41,7 @@
 
   &__figure:hover &__overlay {
     opacity: 1;
+    transition: opacity 0.3s ease;
   }
 
   &__title {
@@ -48,10 +49,12 @@
     color: var(--white);
     font-size: 22px;
     font-weight: 600;
+    transition: color 0.3s ease;
 
     &:hover {
       color: var(--cyan-400);
       cursor: pointer;
+      transition: color 0.3s ease;
     }
   }
 
@@ -61,5 +64,24 @@
     font-weight: 300;
     line-height: 26px;
     margin-bottom: 1rem;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 350px;
+    height: 596px;
+    padding: 24px 24px 32px 24px;
+
+    &__figure {
+      width: 302px;
+      height: 302px;
+    }
+
+    &__title {
+      margin: 24px 0 16px 0;
+    }
+
+    &__paragraph {
+      margin-bottom: 24px;
+    }
   }
 }
