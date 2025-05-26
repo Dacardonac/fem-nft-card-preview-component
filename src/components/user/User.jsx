@@ -6,7 +6,7 @@ const User = () => {
       <figure className={u['user__figure']}>
         <img
           className={u['user__figure-img']}
-          src="/public/images/image-avatar.webp"
+          src="images/image-avatar.webp"
           alt="User avatar image"
         />
       </figure>
