@@ -1,0 +1,41 @@
+.card {
+  width: 327px;
+  height: 543px;
+  background-color: var(--blue-900);
+  padding: 25px 25px 24px 24px;
+  border-radius: 15px;
+
+  &__figure {
+    width: 278px;
+    height: 278px;
+    margin: 0 auto;
+    cursor: pointer;
+
+    &-img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  }
+
+  &__title {
+    margin: 24px 0 12px 0;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 22px;
+    font-weight: 600;
+
+    &:hover {
+      color: var(--cyan-400);
+      cursor: pointer;
+    }
+  }
+
+  &__paragraph {
+    color: var(--blue-500);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 1rem;
+  }
+}

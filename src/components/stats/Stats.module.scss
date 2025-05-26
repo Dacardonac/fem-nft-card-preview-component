@@ -1,0 +1,34 @@
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  padding-bottom: 16px;
+  border-bottom: .5px solid var(--blue-800);
+
+  &__price {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--cyan-400);
+    font-weight: bold;
+    font-size: 15px;
+
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &__time {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--blue-500);
+    font-size: 15px;
+
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
